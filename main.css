@@ -1,0 +1,109 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #0B3954;
+	display: flex;
+	flex-flow: column wrap;
+}
+main{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+h1 {
+	color: #FEFFFE;
+	font-family: Helvetica;
+	font-size: 70px;
+	text-align: center;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-size: 30px;
+	margin: 0;
+}
+
+li, ul {
+	color: #FEFFFE;
+	font-family: Arial;
+	font-size: 26px;	
+}
+
+li{
+	width: 90%;
+}
+button, #submit {
+	border: none;
+	color: #0B3954;
+	padding:8px 12px;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.donBut{
+	background-color: #E0FF4F;
+	border-radius: 100px;
+}
+.remBut {
+	background-color: #B2DBBF;
+	border-radius: 100px;
+	
+}
+
+.inputBox {
+	width: 400px;
+	height: 30px;
+	font-size: 16px;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+#leftH2 {
+	color: #FF6663;
+}
+
+#rightH2 {
+	color: #E0FF4F;
+}
+
+#submit {	
+	background-color: #FF6663	;
+	border-radius: 4px;
+}
+
+#left, #right{
+	width: 100%;
+	margin-left: 70px;
+	display: flex;
+	flex-flow: column wrap;
+	
+
+}
+#toDo{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	
+}
+
+#toDoList, #doneList{
+	margin: 0;
+	padding: 0;
+	width: 95%;
+	display: flex;
+	flex-flow: column wrap;
+	
+}
+
+#doneList{
+	text-decoration: line-through;
+}
